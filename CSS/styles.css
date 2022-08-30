@@ -1250,3 +1250,34 @@ font-weight: normal;
         padding-right: -1rem;
     }
 }
+
+.scroll-top {
+  position: fixed;
+  bottom: 10%;
+  right: 3%;
+  background-color: var(--color-golden);
+  padding: 0.8rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  animation: grow 1s linear infinite alternate;
+  cursor: pointer;
+  display: none;
+  border-radius: 25%;
+}
+
+.scroll-top svg {
+  width: 2rem;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.scroll-top.show {
+  display: block;
+}

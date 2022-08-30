@@ -497,3 +497,142 @@ nav .navbar-logo {
         height: 320px;
     }
   }
+
+  /* menu styles */
+  /* .app__menuitem {
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__menuitem-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__menuitem-sub {
+    width: 100%;
+    margin-top: 0.2rem;
+}
+
+
+.app__menuitem-name {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__menuitem-price p#price1 {
+    color: var(--color-golden);
+    display: flex;
+    flex-direction: column;
+}
+
+.app__menuitem-dash {
+    width: 90%;
+    height: 1px;
+    background: var(--color-golden);
+    margin: 0 1rem;
+}
+
+.app__menuitem-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+} */
+
+
+.app__specialMenu {
+    background-color: var(--color-black);
+    flex-direction: column;
+}
+
+.app__specialMenu-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.app__specialMenu-menu {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row; */
+}
+
+.app__specialMenu-heading {
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+
+.app__specialMenu-menu_wine, 
+.app__specialMenu-menu_cocktails {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+
+.app__specialMenu-menu_image {
+    width: 380px;
+    margin: 0rem 2rem;
+}
+
+.app__specialMenu-menu_image img {
+    width: 100%;
+    height: auto;
+}
+
+.app__specialMenu_menu_items {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 2000px) {
+    .app__specialMenu-menu_image {
+        width: 650px;
+    }
+    .app__specialMenu-menu_image img {
+        height: 920px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__specialMenu-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    
+}
+.app__specialMenu-menu_image {
+        margin: 3rem 0;
+    }
+
+    
+@media screen and (max-width: 650px) {
+    .app__specialMenu-menu_image {
+        width: 100%;
+    }
+
+    .app__specialMenu-heading {
+        font-size: 35px;
+        line-height: 48.5px;
+    }
+}

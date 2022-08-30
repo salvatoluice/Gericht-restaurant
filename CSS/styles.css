@@ -499,148 +499,6 @@ nav .navbar-logo {
   }
 
   /* menu styles */
-  .app__menuitem {
-    width: 100%;
-    margin: 1rem 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.app__menuitem-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.app__menuitem-sub {
-    width: 100%;
-    margin-top: 0.2rem;
-}
-
-
-.app__menuitem-name {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.app__menuitem-price p#price1 {
-    color: var(--color-golden);
-    display: flex;
-    flex-direction: column;
-}
-
-.app__menuitem-dash {
-    width: 50%;
-    height: 1px;
-    background: var(--color-golden);
-    margin: 0 1rem;
-}
-
-.app__menuitem-price {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-
-.app__specialMenu {
-    background-color: var(--color-black);
-    flex-direction: column;
-}
-
-.app__specialMenu-title {
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-
-.app__specialMenu-menu {
-    width: 100%;
-    margin: 2rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-}
-
-.app__specialMenu-heading {
-    font-family: var(--font-base);
-    font-weight: 600;
-    font-size: 45px;
-    line-height: 58.5px;
-    letter-spacing: 0.04em;
-    color: var(--color-white);
-}
-
-.app__specialMenu-menu_wine, 
-.app__specialMenu-menu_cocktails {
-    flex: 1;
-    width: 100%;
-    flex-direction: column;
-}
-
-.app__menuitems p.second {
-  color: yellow;
-  float: right;
-}
-
-.app__specialMenu-menu_image {
-    width: 380px;
-    margin: 0rem 2rem;
-}
-
-.app__specialMenu-menu_image img {
-    width: 100%;
-    height: auto;
-}
-
-.app__specialMenu_menu_items {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem 0;
-    width: 100%;
-}
-
-
-
-@media screen and (max-width: 2000px) {
-    .app__specialMenu-menu_image {
-        width: 650px;
-    }
-    .app__specialMenu-menu_image img {
-        height: 920px;
-    }
-}
-
-@media screen and (max-width: 1150px) {
-    .app__specialMenu-menu {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    
-}
-.app__specialMenu-menu_image {
-        margin: 3rem 0;
-    }
-
-    
-@media screen and (max-width: 650px) {
-    .app__specialMenu-menu_image {
-        width: 100%;
-    }
-
-    .app__specialMenu-heading {
-        font-size: 35px;
-        line-height: 48.5px;
-    }
-}
-
-
 
 
 
@@ -655,11 +513,20 @@ nav .navbar-logo {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #f3e874ff;
+    color: var(--color-golden);
 }
 
+.head-text h4 {
+  color: var(--color-white);
+  font-family: var(--font-base);
+  font-size: 1.9rem;
+  padding-top: 2rem;
+ }
+
 .head-text h2 {
-    font-size: 2rem;
+    font-size: 2.6rem;
+    margin-bottom: 1.9rem;
+    font-family: var(--font-base);
 }
 
 .cards {
@@ -674,14 +541,14 @@ nav .navbar-logo {
 .cards .card1 {
     height: auto;
     width: 400px;
-    border: 2px solid #f3e874ff;
+    border: 2px solid var(--color-golden);
     padding: 2rem 3rem;
     border-radius: 10px;
 }
 
 .card1 h3 {
-    color: #f3e874ff;
-    border-bottom: 2px solid #f3e874ff;
+    color: var(--color-golden);
+    border-bottom: 2px solid var(--color-golden);
     width: 100px;
     font-size: 1.5rem;
 }
@@ -691,7 +558,7 @@ nav .navbar-logo {
 }
 
 .card1 .price {
-    background: #f3e874ff;
+    background: var(--color-golden);
     margin-top: -3.5rem;
     padding-top: 1rem;
     width: 60px;

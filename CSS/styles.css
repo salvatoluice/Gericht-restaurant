@@ -378,3 +378,20 @@ nav .navbar-logo {
         width: 110px;
     }
 }
+
+/* Home Styles */
+.app__header {
+    background: var(--color-black);
+  }
+  
+  .app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    line-height: 117px;
+    font-size: 40px;
+  }
+  
+  .app__header-img img {
+    width: 80%;
+  }

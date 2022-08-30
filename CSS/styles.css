@@ -499,7 +499,7 @@ nav .navbar-logo {
   }
 
   /* menu styles */
-  /* .app__menuitem {
+  .app__menuitem {
     width: 100%;
     margin: 1rem 0;
     display: flex;
@@ -531,7 +531,7 @@ nav .navbar-logo {
 }
 
 .app__menuitem-dash {
-    width: 90%;
+    width: 50%;
     height: 1px;
     background: var(--color-golden);
     margin: 0 1rem;
@@ -542,7 +542,7 @@ nav .navbar-logo {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-} */
+}
 
 
 .app__specialMenu {
@@ -557,14 +557,12 @@ nav .navbar-logo {
 
 
 .app__specialMenu-menu {
-    display: flex;
-    flex-direction: row;
-    /* width: 100%;
+    width: 100%;
     margin: 2rem 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    flex-direction: row; */
+    flex-direction: row;
 }
 
 .app__specialMenu-heading {
@@ -581,6 +579,11 @@ nav .navbar-logo {
     flex: 1;
     width: 100%;
     flex-direction: column;
+}
+
+.app__menuitems p.second {
+  color: yellow;
+  float: right;
 }
 
 .app__specialMenu-menu_image {
@@ -634,5 +637,749 @@ nav .navbar-logo {
     .app__specialMenu-heading {
         font-size: 35px;
         line-height: 48.5px;
+    }
+}
+
+
+
+
+
+.main-container {
+    width: auto;
+    margin: auto;
+    height: auto;
+    background: var(--color-black);
+}
+
+.head-text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f3e874ff;
+}
+
+.head-text h2 {
+    font-size: 2rem;
+}
+
+.cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 4rem;
+}
+
+/* Card 1 styling */
+
+.cards .card1 {
+    height: auto;
+    width: 400px;
+    border: 2px solid #f3e874ff;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+}
+
+.card1 h3 {
+    color: #f3e874ff;
+    border-bottom: 2px solid #f3e874ff;
+    width: 100px;
+    font-size: 1.5rem;
+}
+.card1 p.second{
+  color: var(--color-white);
+  font-weight: normal;
+}
+
+.card1 .price {
+    background: #f3e874ff;
+    margin-top: -3.5rem;
+    padding-top: 1rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    float: right;
+}
+
+.price p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.card1 img {
+    width: 100%;
+    height: 100%;
+    margin-top: -17rem;
+    padding-top: -3rem;
+}
+
+/* card2 styling */
+.cards .card2 {
+  height: auto;
+  width: 400px;
+  border: 2px solid #f3e874ff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+
+.card2 h3 {
+  color: #f3e874ff;
+  border-bottom: 2px solid #f3e874ff;
+  width: 100px;
+  font-size: 1.5rem;
+}
+.card2 p.second{
+color: var(--color-white);
+font-weight: normal;
+}
+
+.card2 .price {
+  background: #f3e874ff;
+  margin-top: -3.5rem;
+  padding-top: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  float: right;
+}
+
+.price p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card2 img {
+  width: 100%;
+  height: 100%;
+  margin-top: -17rem;
+  padding-top: -3rem;
+}
+
+
+/* Card 3 styling */
+.cards .card3 {
+  height: auto;
+  width: 400px;
+  border: 2px solid #f3e874ff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+
+.card3 h3 {
+  color: #f3e874ff;
+  border-bottom: 2px solid #f3e874ff;
+  width: 100px;
+  font-size: 1.5rem;
+}
+.card3 p.second{
+color: var(--color-white);
+font-weight: normal;
+}
+
+.card3 .price {
+  background: #f3e874ff;
+  margin-top: -3.5rem;
+  padding-top: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  float: right;
+}
+
+.price p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card3 img {
+  width: 100%;
+  height: 100%;
+  margin-top: -17rem;
+  padding-top: -3rem;
+}
+
+/* card4 stling */
+.cards .card4 {
+  height: auto;
+  width: 400px;
+  border: 2px solid #f3e874ff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+
+.card4 h3 {
+  color: #f3e874ff;
+  border-bottom: 2px solid #f3e874ff;
+  width: 100px;
+  font-size: 1.5rem;
+}
+.card4 p.second{
+color: var(--color-white);
+font-weight: normal;
+}
+
+.card4 .price {
+  background: #f3e874ff;
+  margin-top: -3.5rem;
+  padding-top: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  float: right;
+}
+
+.price p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card4 img {
+  width: 100%;
+  height: 100%;
+  margin-top: -17rem;
+  padding-top: -3rem;
+}
+
+/* card5 stling */
+.cards .card5 {
+  height: auto;
+  width: 400px;
+  border: 2px solid #f3e874ff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+
+.card5 h3 {
+  color: #f3e874ff;
+  border-bottom: 2px solid #f3e874ff;
+  width: 100px;
+  font-size: 1.5rem;
+}
+.card5 p.second{
+color: var(--color-white);
+font-weight: normal;
+}
+
+.card5 .price {
+  background: #f3e874ff;
+  margin-top: -3.5rem;
+  padding-top: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  float: right;
+}
+
+.price p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card5 img {
+  width: 100%;
+  height: 100%;
+  margin-top: -17rem;
+  padding-top: -3rem;
+}
+
+
+/* card6 stling */
+
+.cards .card6 {
+  height: auto;
+  width: 400px;
+  border: 2px solid #f3e874ff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+
+.card6 h3 {
+  color: #f3e874ff;
+  border-bottom: 2px solid #f3e874ff;
+  width: 100px;
+  font-size: 1.5rem;
+}
+.card6 p.second{
+color: var(--color-white);
+font-weight: normal;
+}
+
+.card6 .price {
+  background: #f3e874ff;
+  margin-top: -3.5rem;
+  padding-top: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  float: right;
+}
+
+.price p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card6 img {
+  width: 100%;
+  height: 100%;
+  margin-top: -17rem;
+  padding-top: -3rem;
+}
+
+/* card7 stling */
+
+.cards .card7 {
+  height: auto;
+  width: 400px;
+  border: 2px solid #f3e874ff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+
+.card7 h3 {
+  color: #f3e874ff;
+  border-bottom: 2px solid #f3e874ff;
+  width: 100px;
+  font-size: 1.5rem;
+}
+.card7 p.second{
+color: var(--color-white);
+font-weight: normal;
+}
+
+.card7 .price {
+  background: #f3e874ff;
+  margin-top: -3.5rem;
+  padding-top: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  float: right;
+}
+
+.price p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card7 img {
+  width: 100%;
+  height: 100%;
+  margin-top: -17rem;
+  padding-top: -3rem;
+}
+
+
+/* card8 stling */
+.cards .card8 {
+  height: auto;
+  width: 400px;
+  border: 2px solid #f3e874ff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+
+.card8 h3 {
+  color: #f3e874ff;
+  border-bottom: 2px solid #f3e874ff;
+  width: 100px;
+  font-size: 1.5rem;
+}
+.card8 p.second{
+color: var(--color-white);
+font-weight: normal;
+}
+
+.card8 .price {
+  background: #f3e874ff;
+  margin-top: -3.5rem;
+  padding-top: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  float: right;
+}
+
+.price p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card8 img {
+  width: 100%;
+  height: 100%;
+  margin-top: -17rem;
+  padding-top: -3rem;
+}
+
+/* card9 stling */
+.cards .card9 {
+  height: auto;
+  width: 400px;
+  border: 2px solid #f3e874ff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+
+.card9 h3 {
+  color: #f3e874ff;
+  border-bottom: 2px solid #f3e874ff;
+  width: 100px;
+  font-size: 1.5rem;
+}
+.card9 p.second{
+color: var(--color-white);
+font-weight: normal;
+}
+
+.card9 .price {
+  background: #f3e874ff;
+  margin-top: -3.5rem;
+  padding-top: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  float: right;
+}
+
+.price p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card9 img {
+  width: 100%;
+  height: 100%;
+  margin-top: -17rem;
+  padding-top: -3rem;
+}
+
+/* card11 stling */
+
+.cards .card11 {
+  height: auto;
+  width: 400px;
+  border: 2px solid #f3e874ff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+
+.card11 h3 {
+  color: #f3e874ff;
+  border-bottom: 2px solid #f3e874ff;
+  width: 100px;
+  font-size: 1.5rem;
+}
+.card11 p.second{
+color: var(--color-white);
+font-weight: normal;
+}
+
+.card11 .price {
+  background: #f3e874ff;
+  margin-top: -3.5rem;
+  padding-top: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  float: right;
+}
+
+.price p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card11 img {
+  width: 100%;
+  height: 100%;
+  margin-top: -17rem;
+  padding-top: -3rem;
+}
+
+
+/* card12 stling */
+
+
+.cards .card12 {
+  height: auto;
+  width: 400px;
+  border: 2px solid #f3e874ff;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+
+.card12 h3 {
+  color: #f3e874ff;
+  border-bottom: 2px solid #f3e874ff;
+  width: 100px;
+  font-size: 1.5rem;
+}
+.card12 p.second{
+color: var(--color-white);
+font-weight: normal;
+}
+
+.card12 .price {
+  background: #f3e874ff;
+  margin-top: -3.5rem;
+  padding-top: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  float: right;
+}
+
+.price p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card12 img {
+  width: 100%;
+  height: 100%;
+  margin-top: -17rem;
+  padding-top: -3rem;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+    .cards {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .cards {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    /* ul.link {
+        display: none;
+    } */
+
+
+    .links ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #f3e874ff;
+        top: 50px;
+        left: -100%;
+        line-height: 0;
+        transition: all .5s;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 0;
+        z-index: 5;
+        flex-direction: column;
+        padding-left: 0;
+        align-items: center;
+    }
+    .links ul li {
+        line-height: 0;
+    }
+    .links ul li a {
+        line-height: 40px;
+        color: #000;
+    }
+    .links ul li a.active {
+        color: #000;
+    }
+    #icons svg {
+        display: block;
+        cursor: pointer;
+        float: left;
+        margin-left: 0;
+    }
+    /* #links {
+        display: block;
+        float: left;
+        margin-left: 0;
+    } */
+
+    .links ul.show {
+        left: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+    .cards {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cards .card1 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card1 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card2 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card2 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card3 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card3 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card4 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card4 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card5 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card5 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card6 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card6 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card7 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card7 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card8 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card8 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card9 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card9 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card11 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card11 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
+    }
+    .cards .card12 {
+        width: 240px;
+        border: 2px solid #f3e874ff;
+        padding: 2rem 3rem;
+        border-radius: 10px;
+    }
+    .card12 .price {
+        margin-top: -4rem;
+        margin-right: 0;
+        padding-right: -1rem;
     }
 }

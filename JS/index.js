@@ -1,3 +1,7 @@
+// window.get('/style.css', function(req, res) {
+//   res.sendFile(__dirname + "/" + "style.css");
+// });
+
 const wines = [
     {
       title: 'Chapel Hill Shiraz <br /> AU | Bottle',
@@ -76,28 +80,28 @@ const wines = [
 //       subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
 //     },
 //   ];
-console.log(document.getElementById('title1'))
+// console.log(document.getElementById('title1'))
 
-document.getElementById('title1').innerText = wines.map(getFullWine)
-
-
-function getFullWine(wines) {
-       return [wines.title]
-    }
+// document.getElementById('title1').innerText = wines.map(getFullWine)
 
 
-    document.getElementById('price1').innerText = wines.map(getFullPrice)
+// function getFullWine(wines) {
+//        return [wines.title]
+//     }
 
 
-    function getFullPrice(wines) {
-        return [wines.price]
-        }
-        document.getElementById('tags1').innerText = wines.map(getFullTag)
+//     document.getElementById('price1').innerText = wines.map(getFullPrice)
 
 
-        function getFullTag(wines) {
-            return [wines.tags]
-            }
+//     function getFullPrice(wines) {
+//         return [wines.price]
+//         }
+//         document.getElementById('tags1').innerText = wines.map(getFullTag)
+
+
+//         function getFullTag(wines) {
+//             return [wines.tags]
+//             }
 
 
 

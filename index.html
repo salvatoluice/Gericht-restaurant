@@ -183,14 +183,14 @@
         </div> 
     </div>
 
-    <div class="order" id="order">
+    <div class="order app__bg app__wrapper section__padding" id="order">
       <div class="price-list">
-        <h2>============PRICE LIST==============</h2>
-      <table width="40%" id="alignment" > 
+        <h2>~~~~~~~~~~~ Kenyan Flavours ~~~~~~~~~~~~</h2>
+      <table width="fit-content" margin="auto" id="alignment" > 
         <tr>  
         <th>Food Item</th> 
         <th></th>
-        <th>Price(Rs.)</th>
+        <th>Price(Ksh .)</th>
         </tr> 
         <tr>
         <td>Chicken pizza</td> 
@@ -223,25 +223,25 @@
 
 
        <div class="order-form">
-        <h1>FIT Food - Order Form</h1>
-        <table style="background-color:aquamarine;margin-left: 100px;">  <tr>
-        <td>Branch : </td>
+        <h1 class="headtext__cormorant">Gericht Food ~ Order Details</h1>
+        <table class="table-order" style="justify-content: center;">  <tr>
+        <td>Location : </td>
         <td> 
         <select> 
-        <option>--Select Item--</option>
-        <option>Galle</option>
-        <option>Colombo</option> 
+        <option>--Select Location--</option>
+        <option>CBD</option>
+        <option>Outskirts</option> 
         </select>
         </td> 
         </tr>
         <tr>
         <td>User name:</td>
         <td>
-        <input type="text" >
+        <input type="text" placeholder="Enter your User Name">
         </td>
         </tr>
         <tr><td>Mobile: </td>
-        <td><input type="text" id="mblenmb" onfocusout="checkmob()"></td></tr> 
+        <td><input type="text" placeholder="Enter a valid Phone Number" id="mblenmb" onfocusout="checkmob()"></td></tr> 
         </table>
         <br>
        </div>
@@ -332,9 +332,12 @@
     <p class="headtext__cormorant">Find Recipes Here</p>
     <p class="p__cormorant">As a commited service provider, We offer you the chance to look at most of the recipes of your choice of the foods we make.<br /> Search for any food below and see the steps used to prepare them, <br /> Since we wanna see you make one on your own back there at home. </p>
   </div>
-  <input id="search"><button onclick="getRecipe(document.getElementById('search').value)" class="custom__button">Search</button>
-<div id="output"></div>
-<a href="" id="sourceLink"></a>
+  <div class="input-search">
+    <input id="search">
+  <button onclick="getRecipe(document.getElementById('search').value)" class="custom__button">Search</button>
+  </div>
+<div id="output" style="color: white;"></div>
+<a href="" id="sourceLink" style="color: white;"></a>
 </div>
 
 

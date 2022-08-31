@@ -1377,11 +1377,11 @@ font-weight: normal;
 
 
 .app__recipe {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background: var(--color-black);
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
   margin: auto;
   padding: 2rem 2rem;
@@ -1389,7 +1389,8 @@ font-weight: normal;
 
 .app__recipe input {
   margin-top: 3rem;
-  width: 400px;
+  width: 300px;
+  justify-content: flex-start;
   height: 43px;
   background: transparent;
   outline: none;
@@ -1407,4 +1408,97 @@ font-weight: normal;
   justify-content: center;
   text-align: center;
   align-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-search {
+  display: flex;
+  justify-content: center;
+}
+.input-search button {
+  border-radius: 0 6px 6px 0;
+  height: 43px;
+  margin-top: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.order {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.price-list {
+  color: var(--color-white);
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+/* .price-list table tr th {
+  color: var(--color-white);
+} */
+
+table tr, th {
+  color: var(--color-white);
+  justify-content: flex-start;
+  /* justify-content: space-between; */
+  font-family: var(--font-base);
+  font-size: 1.5rem;
+  width: 400px;
+  align-items: center;
+  text-align: center;
+}
+
+.order-form {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  /* margin-left: 35%; */
+}
+.order-form h1 {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 0;
+}
+
+.table-order {
+  justify-content: center;
+  display: flex;
+  border: 2px solid var(--color-golden);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 50%;
+  margin: auto;
+  border-radius: 8px;
+  font-size: 2rem;
+}
+
+.table-order td input {
+  background: none;
+  font-size: 1.6rem;
+  margin: 0.7rem;
+  color: var(--color-white);
+  padding-left: 0.9rem;
+  outline: none;
+  border: 1px solid var(--color-golden);
+  border-radius: 5px;
+}
+
+.table-order td select {
+  font-size: 2rem;
 }

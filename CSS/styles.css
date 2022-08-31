@@ -1502,3 +1502,45 @@ table tr, th {
 .table-order td select {
   font-size: 2rem;
 }
+
+.tbl-form {
+  justify-content: center;
+}
+
+.tbl-form th {
+  font-size: 3rem;
+  color: var(--color-golden);
+}
+
+.tbl-form td {
+  margin-top: 0.8rem;
+  font-size: 1.2rem;
+  align-items: center;
+  padding-top: 0.8rem;
+}
+
+.tbl-form select {
+  background: none;
+  color: var(--color-white);
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+  outline: none;
+  border: 1px solid var(--color-golden); 
+}
+
+.tbl-form select option {
+  color: var(--color-white);
+}
+
+.tbl-form input {
+  background: none;
+  outline: none;
+  height: 36px;
+  border: 1px solid var(--color-golden);
+  color: var(--color-white);
+  padding: 0 2rem;
+  font-size: 1.6rem;
+  font-family: var(--font-base);
+  font-weight: bold;
+  letter-spacing: 0.04em;
+}

@@ -1373,3 +1373,38 @@ font-weight: normal;
       width: 370px;
   }
 }
+
+
+
+.app__recipe {
+  height: 80vh;
+  width: 100%;
+  background: var(--color-black);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 2rem 2rem;
+}
+
+.app__recipe input {
+  margin-top: 3rem;
+  width: 400px;
+  height: 43px;
+  background: transparent;
+  outline: none;
+  text-decoration: none;
+  color: var(--color-white);
+  border: 1px solid var(--color-golden);
+  border-radius: 6px 0 0 6px;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.app__recipe button {
+  border-radius: 0 6px 6px 0;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}

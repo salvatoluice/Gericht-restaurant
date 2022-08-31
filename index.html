@@ -19,6 +19,7 @@
           <li class="p__opensans"><a href="#about">About Us</a></li>
           <li class="p__opensans"><a href="#menu">Menu</a></li>
           <li class="p__opensans"><a href="#order">Order</a></li>
+          <li class="p__opensans"><a href="#recipes">Recipes</a></li>
           <li class="p__opensans"><a href="#contact">Contacts</a></li>
         </ul>
         <div class="navbar-login">
@@ -326,8 +327,12 @@
     </div>
 
 
-<div class="app__recipe">
-  <input id="search"><button onclick="getRecipe(document.getElementById('search').value)">Search</button>
+<div class="app__recipe" id="recipes">
+  <div class="app__recipe-header">
+    <p class="headtext__cormorant">Find Recipes Here</p>
+    <p class="p__cormorant">As a commited service provider, We offer you the chance to look at most of the recipes of your choice of the foods we make.<br /> Search for any food below and see the steps used to prepare them, <br /> Since we wanna see you make one on your own back there at home. </p>
+  </div>
+  <input id="search"><button onclick="getRecipe(document.getElementById('search').value)" class="custom__button">Search</button>
 <div id="output"></div>
 <a href="" id="sourceLink"></a>
 </div>
@@ -342,7 +347,6 @@
       <p class="p__cormorant">Word from the Chef</p>
       <img src="./assets/spoon.png" alt="Spoon" class='spoon__image' />
     </div>
-    <!-- <SubHeading title=""/> -->
     <h1 class="headtex__cormorant" style="color: var(--color-golden);">What we Believe in</h1>
 
     <div class="app__chef-content">

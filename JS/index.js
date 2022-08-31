@@ -111,3 +111,24 @@ function createBill(){
   var tot=parseInt(x)*parseInt(y);
   document.write("<td>"+tot+"</td>");
   }
+
+
+  function getSource(id){
+    $.ajax({
+      url: "https://api.spoonacular.com/recipes/"+id+"/information?apiKey=4d6b245a411c4caca67ff69f5eee4358",
+      success: function (res) {
+        document.getElementById('sourceLink').innerHTML = res.sourceUrl;
+        document.getElementById('sourceLink').href = res.sourceUrl;
+      }
+    });
+  }
+
+  function getRecipe(q) {
+    $.ajax({
+      url: "https://api.spoonacular.com/recipes/search?apiKey=4d6b245a411c4caca67ff69f5eee4358&number=1&query="+q,
+      success: function(res) {
+        document.getElementById('output').innerHTML = "<h1>"+res.results[0].title+"</h1><br /><img src='"+res.baseUri+res.results[0].image+"' width='400' /><br /> ready in " + res.results[0].readyInMinutes+" minutes"
+        getSource(res.results[0].id)
+      }
+    });
+  }

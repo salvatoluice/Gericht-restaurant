@@ -57,9 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `salvatoluice`, `Gericht-restaurant`, `salvatoluis`, `salvatoluice5@gmail.com`
+Geritch is a restaurant website that seeks to deliver food stuffs to its clients within minutes. Clients can also search for any recipe of their own. `salvatoluice`, `Gericht-restaurant`, `salvatoluis`, `salvatoluice5@gmail.com`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
